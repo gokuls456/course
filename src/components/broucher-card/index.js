@@ -1,9 +1,12 @@
 import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 import './index.css';
 
 const BrochureCard = () => {
   return (
-    <div className="brochure-card">
+    <Row>
+        <Col>
+        <div className="brochure-card">
       <div className="thumbnail">
         <img className="left" src="https://cdn2.hubspot.net/hubfs/322787/Mychefcom/images/BLOG/Header-Blog/photo-culinaire-pexels.jpg" alt="thumbnail" />
       </div>
@@ -28,6 +31,8 @@ const BrochureCard = () => {
         <i className="fa fa-arrow-down fa-3x"></i>
       </div>
     </div>
+        </Col>
+    </Row>
   );
 };
 

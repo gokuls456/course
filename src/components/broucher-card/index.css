@@ -103,7 +103,7 @@ p {
 h5 {
   position: absolute;
   left: 30px;
-  bottom: -120px;
+  bottom: 0px;
   font-size: 6rem;
   color: #C3C3C3;
 }
@@ -111,7 +111,7 @@ h5 {
 h6 {
   position: absolute;
   left: 30px;
-  bottom: -55px;
+  bottom: -12px;
   font-size: 2rem;
   color: #C3C3C3;
 }
@@ -119,6 +119,8 @@ h6 {
 /* Those futur buttons */
 ul {
   margin-left: 250px;
+  position: absolute;
+  bottom: 0;
 }
 
 li {

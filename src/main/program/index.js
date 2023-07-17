@@ -95,7 +95,7 @@ const Program = () => {
                 your career right away!
                 </h1>
                 <p>Learn with India's top product & business leaders. Get real insights you can apply to and a few laughs.</p>
-                {/* <BrochureCard /> */}
+                <BrochureCard />
             </div>
         </>
     )
