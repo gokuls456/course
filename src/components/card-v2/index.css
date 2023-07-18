@@ -1,0 +1,22 @@
+.card:hover {
+    box-shadow: 1px 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card{
+    min-height: 420px;
+    background: linear-gradient(to right, rgba(255, 127, 80, 0.2), rgba(255, 255, 255, 0.2));
+}
+
+.card-button{
+    width: auto;
+    text-align: center;
+    border-radius: 10px !important;
+    background-color: transparent;
+}
+.card-button:hover{
+    opacity: 1;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

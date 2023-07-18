@@ -14,7 +14,9 @@ const ProfileCard = ({ name, title, imageUrl, socialLinks }) => {
       <ul className="social">
         {socialLinks.map((link, index) => (
           <li key={index}>
-            <a href={link.url} className={`fas fa-${link.icon}`} aria-hidden="true"></a>
+            <a href={link.url} aria-label="test" aria-hidden="true">
+              <i className={`fas fa-${link.icon}`} />
+            </a>
           </li>
         ))}
       </ul>

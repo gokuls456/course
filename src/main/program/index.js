@@ -1,69 +1,14 @@
 import React from 'react';
-import BrochureCard from '../../components/broucher-card';
+// import BrochureCard from '../../components/broucher-card';
 import Card from '../../components/card';
 import ProfileCard from '../../components/profile-card';
 import MainPage from './main-page';
-
-const cardInfo = [{
-    diplay: "Professional Training",
-    info: "One-to-one mentorship from Experts",
-    subText: "One-to-one mentorship from Experts"
-},
-{
-    diplay: "Gain work-experience",
-    info: "One-to-one mentorship from Experts",
-    icon: 'fa-chalkboard-teacher',
-    subText: "Challenge and Task-based learning"
-},
-{
-    diplay: "Great Career",
-    info: "One-to-one mentorship from Experts",
-    icon: "fa-bullseye",
-    subText: "100% Life-long Placement Assistance"
-},
-{
-    diplay: "Quality Classes",
-    info: "One-to-one mentorship from Experts",
-    subText: "Live Online sessions & flexible timing"
-}
-]
-
-const profiles = [
-    {
-        name: 'Michele Miller',
-        title: 'Web Developer',
-        imageUrl: 'https://picsum.photos/130/130?image=1027',
-        socialLinks: [
-          { icon: 'user', url: 'https://codepen.io/collection/XdWJOQ/' },
-        ],
-      },
-      {
-        name: 'Patricia Knott',
-        title: 'Web Developer',
-        imageUrl: 'https://picsum.photos/130/130?image=839',
-        socialLinks: [
-          { icon: 'user', url: 'https://codepen.io/collection/XdWJOQ/' },
-        ],
-      },
-      {
-        name: 'Justin Ramos',
-        title: 'Web Developer',
-        imageUrl: 'https://picsum.photos/130/130?image=856',
-        socialLinks: [
-          { icon: 'user', url: 'https://codepen.io/collection/XdWJOQ/' },
-        ],
-      },
-      {
-        name: 'Mary Huntley',
-        title: 'Web Developer',
-        imageUrl: 'https://picsum.photos/130/130?image=836',
-        socialLinks: [
-          { icon: 'user', url: 'https://codepen.io/collection/XdWJOQ/' },
-        ],
-      },
-];
+import { Row, Col } from "react-bootstrap";
+import json from "../../data.json";
+import CardV2 from '../../components/card-v2';
 
 const Program = () => {
+    console.log(json);
     return (
         <>
             <MainPage />
@@ -71,7 +16,9 @@ const Program = () => {
             <div>
                 <h3 className='text-orange text-center text-uppercase'>Why choose us</h3>
                 <div className='card-wrapper'>
-                    <Card info={cardInfo} />
+                    <Row className='mt-3 mb-4'>
+                        <Card info={json.cardInfo} />
+                    </Row>
                 </div>
             </div>
             <div className="profile-wrapper">
@@ -83,20 +30,29 @@ const Program = () => {
                     Quality learning comes from quality experience.
 
                 </p>
-                <div className="row card-wrapper">
-                    {profiles.map((profile, index) => (
-                        <ProfileCard key={index} {...profile} />
+                <Row className='profile-card-row' style={{ display: "flex", justifyContent: 'center' }}>
+                    {json.profiles.map((profile, index) => (
+                        <Col xs={12} md={3} lg={3}>
+                            <ProfileCard key={index} {...profile} />
+                        </Col>
                     ))}
-                </div>
+                </Row>
             </div>
-            <div>
-            <h3 className='text-orange text-uppercase'>Free Resources</h3>
+            <Row className='mt-3 mb-3'>
+                <h3 className='text-orange text-uppercase'>Free Resources</h3>
                 <h1><span className='text-orange'>Supercharge </span>
-                your career right away!
+                    your career right away!
                 </h1>
                 <p>Learn with India's top product & business leaders. Get real insights you can apply to and a few laughs.</p>
-                <BrochureCard />
-            </div>
+            </Row>
+            <Row className='mb-3'>
+                {json.courseInfo.map((card, index) => (
+                    <Col className='mb-3' xs={12} md={3} lg={3}>
+                        <CardV2 key={index} info={card} />
+                    </Col>
+                )
+                )}
+            </Row>
         </>
     )
 }

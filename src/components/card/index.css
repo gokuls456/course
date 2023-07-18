@@ -1,4 +1,4 @@
-.card {
+.card-v1 {
     margin: 10px 10px;
     box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
     border-radius: 6px;
@@ -9,27 +9,27 @@
     min-height: 400px;
 }
 
-.card:hover {
+.card-v1:hover {
     box-shadow: 1px 10px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
-.card-title {
+.card-v1-title {
     text-align: center;
     color: #666666;
     font-weight: bold;
 }
 
-.card-text {
+.card-v1-text {
     font-weight: 500;
     color: #66686b;
 }
 
-.card-image {
+.card-v1-image {
     text-align: center;
     margin: 5vh 0;
 }
 
-.card-text {
+.card-v1-text {
     text-align: center;
 }
 

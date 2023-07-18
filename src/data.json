@@ -1,0 +1,103 @@
+{
+    "cardInfo": [
+        {
+            "diplay": "Professional Training",
+            "info": "One-to-one mentorship from Experts",
+            "subText": "One-to-one mentorship from Experts"
+        },
+        {
+            "diplay": "Gain work-experience",
+            "info": "One-to-one mentorship from Experts",
+            "icon": "fa-chalkboard-teacher",
+            "subText": "Challenge and Task-based learning"
+        },
+        {
+            "diplay": "Great Career",
+            "info": "One-to-one mentorship from Experts",
+            "icon": "fa-bullseye",
+            "subText": "100% Life-long Placement Assistance"
+        },
+        {
+            "diplay": "Quality Classes",
+            "info": "One-to-one mentorship from Experts",
+            "subText": "Live Online sessions & flexible timing"
+        }
+    ],
+    "profiles": [
+        {
+            "name": "Michele Miller",
+            "title": "Web Developer",
+            "imageUrl": "https://picsum.photos/130/130?image=1027",
+            "socialLinks": [
+                {
+                    "icon": "user",
+                    "url": "https://codepen.io/collection/XdWJOQ/"
+                }
+            ]
+        },
+        {
+            "name": "Patricia Knott",
+            "title": "Web Developer",
+            "imageUrl": "https://picsum.photos/130/130?image=839",
+            "socialLinks": [
+                {
+                    "icon": "user",
+                    "url": "https://codepen.io/collection/XdWJOQ/"
+                }
+            ]
+        },
+        {
+            "name": "Justin Ramos",
+            "title": "Web Developer",
+            "imageUrl": "https://picsum.photos/130/130?image=856",
+            "socialLinks": [
+                {
+                    "icon": "user",
+                    "url": "https://codepen.io/collection/XdWJOQ/"
+                }
+            ]
+        },
+        {
+            "name": "Mary Huntley",
+            "title": "Web Developer",
+            "imageUrl": "https://picsum.photos/130/130?image=836",
+            "socialLinks": [
+                {
+                    "icon": "user",
+                    "url": "https://codepen.io/collection/XdWJOQ/"
+                }
+            ]
+        }
+    ],
+    "courseInfo": [
+        {
+          "title": "Introduction to Machine Learning",
+          "path": "/machine-learning",
+          "duration": "4 weeks",
+          "imageUrl": "https://images.pexels.com/photos/89955/pexels-photo-89955.jpeg",
+          "date": "2023-08-01",
+          "time": "10:00 AM",
+          "courseDescription": "An introduction to the fundamental concepts and algorithms of machine learning, covering supervised and unsupervised learning techniques.",
+          "smallDescription": "Fundamental concepts and algorithms of machine learning."
+        },
+        {
+          "title": "Artificial Intelligence Fundamentals",
+          "duration": "6 weeks",
+          "imageUrl": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/12/chris-ried-ieic5Tq8YMk-unsplash.jpg",
+          "date": "2023-08-01",
+          "time": "10:00 AM",
+          "courseDescription": "Learn the basics of artificial intelligence, including neural networks, natural language processing, and computer vision.",
+          "smallDescription": "Basics of artificial intelligence including neural networks."
+        },
+        {
+          "title": "Advanced Machine Learning Techniques",
+          "duration": "8 weeks",
+          "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--b2bV92Qm--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/gbm07q6i1zkn0em0jd74.jpg",
+          "date": "2023-08-01",
+          "time": "10:00 AM",
+          "courseDescription": "Explore advanced machine learning algorithms and techniques such as deep learning, reinforcement learning, and ensemble methods.",
+          "smallDescription": "Explore advanced machine learning algorithms and techniques."
+        }
+      ]
+      
+}
