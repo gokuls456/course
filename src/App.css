@@ -69,6 +69,10 @@ span{
   width: fit-content;
   margin: auto;
 }
+.orange-round-button > a{
+  color: inherit;
+  text-decoration: none;
+}
 .orange-round-button:hover{
   background-color: rgb(255, 117, 4) !important;
   color: white !important;

@@ -7,7 +7,7 @@ const Card = ({ info }) => {
         <>
             {info.map((item, index) => {
                 return (
-                    <Col style={{ width: '18rem', cursor: 'pointer' }} md={3} xs={12} lg={3} className="mt-2 mb-2">
+                    <Col style={{ width: '18rem', cursor: 'pointer', margin: 'auto' }} md={3} xs={12} lg={3} className="mt-2 mb-2">
                         <div key={index} className="card-v1 container">
                             <div className="card-v1-body">
                                 <div className="card-v1-image" style={{ color: '#213661' }}>

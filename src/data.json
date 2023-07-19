@@ -71,33 +71,53 @@
     ],
     "courseInfo": [
         {
-          "title": "Introduction to Machine Learning",
-          "path": "/machine-learning",
-          "duration": "4 weeks",
-          "imageUrl": "https://images.pexels.com/photos/89955/pexels-photo-89955.jpeg",
-          "date": "2023-08-01",
-          "time": "10:00 AM",
-          "courseDescription": "An introduction to the fundamental concepts and algorithms of machine learning, covering supervised and unsupervised learning techniques.",
-          "smallDescription": "Fundamental concepts and algorithms of machine learning."
+            "title": "Introduction to Machine Learning",
+            "path": "/program/1",
+            "id": 1,
+            "duration": "4 weeks",
+            "imageUrl": "https://images.pexels.com/photos/89955/pexels-photo-89955.jpeg",
+            "date": "2023-08-01",
+            "time": "10:00 AM",
+            "description": "An introduction to the fundamental concepts and algorithms of machine learning, covering supervised and unsupervised learning techniques.",
+            "smallDescription": "Fundamental concepts and algorithms of machine learning."
         },
         {
-          "title": "Artificial Intelligence Fundamentals",
-          "duration": "6 weeks",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/12/chris-ried-ieic5Tq8YMk-unsplash.jpg",
-          "date": "2023-08-01",
-          "time": "10:00 AM",
-          "courseDescription": "Learn the basics of artificial intelligence, including neural networks, natural language processing, and computer vision.",
-          "smallDescription": "Basics of artificial intelligence including neural networks."
+            "title": "Artificial Intelligence Fundamentals",
+            "path": "/program/2",
+            "id": 2,
+            "duration": "6 weeks",
+            "imageUrl": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/12/chris-ried-ieic5Tq8YMk-unsplash.jpg",
+            "date": "2023-08-01",
+            "time": "10:00 AM",
+            "description": "Learn the basics of artificial intelligence, including neural networks, natural language processing, and computer vision.",
+            "smallDescription": "Basics of artificial intelligence including neural networks."
         },
         {
-          "title": "Advanced Machine Learning Techniques",
-          "duration": "8 weeks",
-          "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--b2bV92Qm--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/gbm07q6i1zkn0em0jd74.jpg",
-          "date": "2023-08-01",
-          "time": "10:00 AM",
-          "courseDescription": "Explore advanced machine learning algorithms and techniques such as deep learning, reinforcement learning, and ensemble methods.",
-          "smallDescription": "Explore advanced machine learning algorithms and techniques."
+            "title": "Advanced Machine Learning Techniques",
+            "path": "/program/3",
+            "id": 3,
+            "duration": "8 weeks",
+            "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--b2bV92Qm--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/gbm07q6i1zkn0em0jd74.jpg",
+            "date": "2023-08-01",
+            "time": "10:00 AM",
+            "description": "Explore advanced machine learning algorithms and techniques such as deep learning, reinforcement learning, and ensemble methods.",
+            "smallDescription": "Explore advanced machine learning algorithms and techniques."
         }
-      ]
-      
+    ],
+    "socialLinks": [
+        {
+            "title": "Facebook",
+            "icon": "facebook",
+            "url": "https://facebook.com"
+        },
+        {
+            "title": "Twitter",
+            "icon": "twitter",
+            "url": "https://twitter.com"
+        },{
+            "title": "Instagram",
+            "icon": "instagram",
+            "url": "https://instagram.com"
+        }
+    ]
 }

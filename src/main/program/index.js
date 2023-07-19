@@ -8,7 +8,6 @@ import json from "../../data.json";
 import CardV2 from '../../components/card-v2';
 
 const Program = () => {
-    console.log(json);
     return (
         <>
             <MainPage />
