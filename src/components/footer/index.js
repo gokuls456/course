@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Container, Row, Col, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Nav } from 'react-bootstrap';
 import json from "../../data.json";
 
 const Footer = () => {
