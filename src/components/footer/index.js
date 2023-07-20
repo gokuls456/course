@@ -4,10 +4,9 @@ import json from "../../data.json";
 
 const Footer = () => {
     return (
-        <Navbar expand="lg" className='light' style={{ boxShadow: "rgba(0, 0, 0, 0.05) 10px 4px 120px" }}>
             <Container>
                 <Row>
-                    <Col xs={12} md={4} lg={4}>
+                    <Col xs={12} md={4} lg={4} className="text-center">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdJpvpgr0ex8D_llrc9QSKmyUR5q8Zpd5EQ&usqp=CAU" alt="Logo" style={{ width: "35px", height: "35px", margin: "10px" }} />
                         &copy; {new Date().getFullYear()} All rights reserved.
                     </Col>
@@ -22,7 +21,6 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </Navbar>
     );
 };
 

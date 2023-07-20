@@ -71,12 +71,13 @@
     ],
     "courseInfo": [
         {
-            "title": "Introduction to Machine Learning",
+            "title": "Full Stack Developer",
             "path": "/program/1",
             "id": 1,
             "duration": "4 weeks",
-            "imageUrl": "https://images.pexels.com/photos/89955/pexels-photo-89955.jpeg",
+            "imageUrl": "https://www.simplilearn.com/ice9/free_resources_article_thumb/full_stack_banner.jpg",
             "date": "2023-08-01",
+            "gifUrl": "https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif",
             "time": "10:00 AM",
             "description": "An introduction to the fundamental concepts and algorithms of machine learning, covering supervised and unsupervised learning techniques.",
             "smallDescription": "Fundamental concepts and algorithms of machine learning."
@@ -86,6 +87,7 @@
             "path": "/program/2",
             "id": 2,
             "duration": "6 weeks",
+            "gifUrl": "https://www.sciencenews.org/wp-content/uploads/2023/04/040823_chatgpt_feat.gif",
             "imageUrl": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/12/chris-ried-ieic5Tq8YMk-unsplash.jpg",
             "date": "2023-08-01",
             "time": "10:00 AM",
@@ -96,6 +98,7 @@
             "title": "Advanced Machine Learning Techniques",
             "path": "/program/3",
             "id": 3,
+            "gifUrl": "https://thumbs.gfycat.com/AshamedWeightyDachshund-max-1mb.gif",
             "duration": "8 weeks",
             "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--b2bV92Qm--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/gbm07q6i1zkn0em0jd74.jpg",
             "date": "2023-08-01",

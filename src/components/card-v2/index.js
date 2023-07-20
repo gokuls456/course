@@ -18,7 +18,7 @@ const CardV2 = ({ info: { title, imageUrl, smallDescription, date, time, path } 
                 <Card.Text>
                     {smallDescription}
                 </Card.Text>
-                <Button className='card-button orange-round-button'><i className='fas fa-play p-3' /><NavLink to={path}>GET EVENT</NavLink></Button>
+                <NavLink className="orange-button-link" to={path}><Button className='card-button orange-round-button'><i className='fas fa-play p-3' />GET EVENT</Button></NavLink>
             </Card.Body>
         </Card>
     );

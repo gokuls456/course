@@ -51,7 +51,7 @@ const NavbarComponent = () => {
                         <NavLink to="/internship" activeClassName="active">
                             Internship
                         </NavLink>
-                        <Button className="orange-round-button">Get Started</Button>
+                        <Button className="orange-round-button round-button">Get Started</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
