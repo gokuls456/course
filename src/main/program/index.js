@@ -47,7 +47,7 @@ const Program = () => {
             </Row>
             <Row className='mb-3'>
                 {json.courseInfo.map((card, index) => (
-                    <Col className='mb-3 course-box' key={index} xs={12} md={3} lg={3}>
+                    <Col style={{ width: '18rem', cursor: 'pointer', margin: 'auto' }} md={3} xs={12} lg={3} className='mb-3 course-box' key={index} >
                         <span>
                             <img alt={card.title} src={card.imageUrl ? card.imageUrl : Icons[`${card?.imagePath}`]} width={100} hegiht={100}/>
                         </span>

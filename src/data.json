@@ -115,5 +115,10 @@
             "icon": "instagram",
             "url": "https://instagram.com"
         }
+    ],
+    "footerInfo": [
+        {
+            "displayName": "Placement Report"
+        }
     ]
 }

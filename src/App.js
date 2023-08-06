@@ -26,7 +26,9 @@ const App = () => {
             <Route path="/program/:id" element={<CourseDetail courses={json.courseInfo} />}/>
           </Routes>
         </div>
+        <div>
         <Footer />
+        </div>
       </div>
     </Router>
   );
