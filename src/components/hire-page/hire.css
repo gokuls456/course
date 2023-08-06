@@ -54,6 +54,7 @@
 
 .hire-modal {
     background-color: rgb(255, 117, 4, 0.1);
+    padding-left: 0px !important;
 }
 
 .hire-form {
@@ -63,7 +64,7 @@
 .hire-form::placeholder {
     color: #000000;
     opacity: 0.5;
-    font-size: 14px;
+    font-size: 13px;
     font-family: Poppins, sans-serif;
 }
 

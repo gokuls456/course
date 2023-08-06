@@ -42,13 +42,13 @@ const HirePage = () => {
     return (
         <>
             <Row className="hire-page-container">
-                <Col xs={12} md={7} className="hire-details d-flex justify-content-center align-items-start flex-column">
+                <Col xs={{ span: 12, order: 2}} md={{ span: 7, order: 1}} className="hire-details d-flex justify-content-center align-items-start flex-column">
                     <span className="hire-heading"><span>{details.title}</span><br /><span>{details.subTitle}</span></span>
                     <p className="hire-description">{details.description}</p>
                     <Button className="hire-btn" onClick={handleStartBtn}>Start Hiring <i class={`${details.buttonIcon} px-1`}></i></Button>
                     <span className="requirement-text">{details.requirementNote}</span>
                 </Col>
-                <Col xs={12} md={5} className="d-flex justify-content-center align-items-center">
+                <Col xs={{ span: 12, order: 1}} md={{ span: 5, order: 2}} className="d-flex justify-content-center align-items-center">
                     <img src={details.hireSideImg} alt="" className="hire-page-image" />
                 </Col>
                 <Modal show={modalOpen} onHide={() => (setModalOpen(false), setFormData(formValue))} className="hire-modal">
@@ -66,9 +66,9 @@ const HirePage = () => {
                             <Form.Control type="text" placeholder="In what timeframe (in weeks) are you looking to close hiring? " onChange={handleForm} className="hire-form" required name="timeFrame" />
                             <Form.Control type="text" placeholder="Can you share an expected salary range for the position(s)?" onChange={handleForm} className="hire-form" required name="expectedSalary" />
                             <Row className="check-form">
-                                <span className="form-check-question">Where did you hear about usThis question is required?</span>
+                                <span className="form-check-question mb-1">Where did you hear about usThis question is required?</span>
                                 {aboutCheck.map((item) => (
-                                    <Col md={6}>
+                                    <Col xs={6} md={6}>
                                         <Form.Check type={item.type} onChange={handleForm} label={item.name} className="hire-form-check" name={item.name} />
                                     </Col>
                                 ))}
