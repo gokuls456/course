@@ -1,0 +1,53 @@
+.hire-page-container {
+    min-height: auto;
+    max-height: 100vh;
+    background-color: #ffffff;
+}
+
+.hire-details {
+    min-height: 80vh;
+}
+
+.hire-heading {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(255, 117, 4);
+}
+
+.hire-description {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    margin: 2 0px 0px;
+}
+
+.hire-btn {
+    background-color: rgb(255, 117, 4);
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 300px;
+    margin: 10px 0px;
+    box-shadow: rgb(255, 117, 4) 0px 0px 10px;
+    cursor: pointer;
+}
+
+.hire-btn:hover {
+    background-color: rgb(255, 117, 4);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.requirement-text {
+    font-size: 11px;
+    font-weight: 500;
+    margin: 5px 3px;
+}
+
+.hire-page-image {
+    width: 400px;
+    height: 400px;
+}
