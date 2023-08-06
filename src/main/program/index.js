@@ -1,18 +1,19 @@
 import React from 'react';
 // import BrochureCard from '../../components/broucher-card';
 import Card from '../../components/card';
-import ProfileCard from '../../components/profile-card';
+// import ProfileCard from '../../components/profile-card';
 import MainPage from './main-page';
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import json from "../../data.json";
-import CardV2 from '../../components/card-v2';
+import * as Icons from '../../icons';
+import { NavLink } from 'react-router-dom';
 
 const Program = () => {
     return (
         <>
             <MainPage />
             <br />
-            <div>
+            <div className='mt-5 mb-5'>
                 <h3 className='text-orange text-center text-uppercase'>Why choose us</h3>
                 <div className='card-wrapper'>
                     <Row className='mt-3 mb-4'>
@@ -20,7 +21,7 @@ const Program = () => {
                     </Row>
                 </div>
             </div>
-            <div className="profile-wrapper">
+            {/* <div className="profile-wrapper mt-5 mb-5">
                 <h3 className='text-orange text-center text-uppercase'>Meet Our Coaches</h3>
                 <h1 className='text-center'>Get personalised coaching
                     from <span className='text-orange '>world-class leaders</span>
@@ -36,8 +37,8 @@ const Program = () => {
                         </Col>
                     ))}
                 </Row>
-            </div>
-            <Row className='mt-3 mb-3'>
+            </div> */}
+            <Row className='mt-5 mb-3' id="programList">
                 <h3 className='text-orange text-uppercase'>Free Resources</h3>
                 <h1><span className='text-orange'>Supercharge </span>
                     your career right away!
@@ -46,8 +47,12 @@ const Program = () => {
             </Row>
             <Row className='mb-3'>
                 {json.courseInfo.map((card, index) => (
-                    <Col className='mb-3' xs={12} md={3} lg={3}>
-                        <CardV2 key={index} info={card} />
+                    <Col className='mb-3 course-box' key={index} xs={12} md={3} lg={3}>
+                        <span>
+                            <img alt={card.title} src={card.imageUrl ? card.imageUrl : Icons[`${card?.imagePath}`]} width={100} hegiht={100}/>
+                        </span>
+                        <h5 className='p-3'>{card.title}</h5>
+                        <NavLink className="orange-button-link" to={card.path}><Button className='card-button orange-round-button'><i className='fas fa-play p-3' />GET MORE INFO</Button></NavLink>
                     </Col>
                 )
                 )}

@@ -1,26 +1,30 @@
 {
     "cardInfo": [
         {
-            "diplay": "Professional Training",
-            "info": "One-to-one mentorship from Experts",
-            "subText": "One-to-one mentorship from Experts"
+            "display": "Live Interactive classes with top industry professionals",
+            "info": "Live Interactive classes with top industry professionals"
         },
         {
-            "diplay": "Gain work-experience",
-            "info": "One-to-one mentorship from Experts",
-            "icon": "fa-chalkboard-teacher",
-            "subText": "Challenge and Task-based learning"
+            "display": "Gain work-like experience learning by doing Challenges and Tasks-based",
+            "info": "Gain work-like experience learning by doing Challenges and Tasks-based",
+            "icon": "fa-chalkboard-teacher"
         },
         {
-            "diplay": "Great Career",
-            "info": "One-to-one mentorship from Experts",
-            "icon": "fa-bullseye",
-            "subText": "100% Life-long Placement Assistance"
+            "display": "1-1 assistance with Tech expert for problem-solving and build-out projects",
+            "info": "1-1 assistance with Tech expert for problem-solving and build-out projects",
+            "icon": "fa-bullseye"
         },
         {
-            "diplay": "Quality Classes",
-            "info": "One-to-one mentorship from Experts",
-            "subText": "Live Online sessions & flexible timing"
+            "display": "Expert advice on how to prepare your profile on your (GitHub, LinkedIn, resume)",
+            "info": "Expert advice on how to prepare your profile on your (GitHub, LinkedIn, resume)"
+        },
+        {
+            "display": "Mock assessments and interview Preparation with industry professionals",
+            "info": "Mock assessments and interview Preparation with industry professionals"
+        },
+        {
+            "display": "Placement guarantee with job-search assistance, recommendations, and career coaching from experienced career coaches.",
+            "info": "Placement guarantee with job-search assistance, recommendations, and career coaching from experienced career coaches."
         }
     ],
     "profiles": [
@@ -71,11 +75,11 @@
     ],
     "courseInfo": [
         {
-            "title": "Full Stack Developer",
+            "title": "Master in Full Stack Developer",
             "path": "/program/1",
             "id": 1,
             "duration": "4 weeks",
-            "imageUrl": "https://www.simplilearn.com/ice9/free_resources_article_thumb/full_stack_banner.jpg",
+            "imagePath": "FullStack",
             "date": "2023-08-01",
             "gifUrl": "https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif",
             "time": "10:00 AM",
@@ -83,28 +87,16 @@
             "smallDescription": "Fundamental concepts and algorithms of machine learning."
         },
         {
-            "title": "Artificial Intelligence Fundamentals",
+            "title": "Master in Andriod Development",
             "path": "/program/2",
             "id": 2,
             "duration": "6 weeks",
+            "imagePath": "Android",
             "gifUrl": "https://www.sciencenews.org/wp-content/uploads/2023/04/040823_chatgpt_feat.gif",
-            "imageUrl": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/12/chris-ried-ieic5Tq8YMk-unsplash.jpg",
             "date": "2023-08-01",
             "time": "10:00 AM",
             "description": "Learn the basics of artificial intelligence, including neural networks, natural language processing, and computer vision.",
             "smallDescription": "Basics of artificial intelligence including neural networks."
-        },
-        {
-            "title": "Advanced Machine Learning Techniques",
-            "path": "/program/3",
-            "id": 3,
-            "gifUrl": "https://thumbs.gfycat.com/AshamedWeightyDachshund-max-1mb.gif",
-            "duration": "8 weeks",
-            "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--b2bV92Qm--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/gbm07q6i1zkn0em0jd74.jpg",
-            "date": "2023-08-01",
-            "time": "10:00 AM",
-            "description": "Explore advanced machine learning algorithms and techniques such as deep learning, reinforcement learning, and ensemble methods.",
-            "smallDescription": "Explore advanced machine learning algorithms and techniques."
         }
     ],
     "socialLinks": [
@@ -117,7 +109,8 @@
             "title": "Twitter",
             "icon": "twitter",
             "url": "https://twitter.com"
-        },{
+        },
+        {
             "title": "Instagram",
             "icon": "instagram",
             "url": "https://instagram.com"

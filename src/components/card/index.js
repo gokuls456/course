@@ -13,10 +13,10 @@ const Card = ({ info }) => {
                                 <div className="card-v1-image" style={{ color: '#213661' }}>
                                     <i className={item.icon ? `fas ${item.icon} fa-5x` : "fas fa-laptop-code fa-5x"}></i>
                                 </div>
-                                <h4 className="card-v1-title">{item.diplay}</h4>
-                                <p className="card-v1-text">
+                                <h5 className="card-v1-title">{item.display}</h5>
+                                {item.subText && <p className="card-v1-text">
                                     {item.subText}
-                                </p>
+                                </p>}
                             </div>
                         </div>
                     </Col>

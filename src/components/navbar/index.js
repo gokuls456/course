@@ -27,6 +27,14 @@ const NavbarComponent = () => {
         };
       }, []);
 
+    const handleCourse = () => {
+        const openingDiv = document.getElementById('courseList');
+        console.log('openingDiv', openingDiv);
+        if (openingDiv) {
+            openingDiv.focus();
+        }
+    }
+
     return (
         <Navbar sticky="top" expand="lg" className="light" expanded={expanded}>
             <Container>
@@ -39,9 +47,9 @@ const NavbarComponent = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleNavbarToggle} />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end left-links" style={{ textAlign: 'center', backgroundColor: '#ffffff' }}>
                     <Nav onClick={handleNavbarToggle}>
-                        <NavLink exact to="/" activeClassName="active">
+                        <a onClick={handleCourse} href={"/#programList"} activeClassName="active">
                             Program
-                        </NavLink>
+                        </a>
                         <NavLink to="/hire" activeClassName="active">
                             Hire from us
                         </NavLink>
@@ -51,7 +59,7 @@ const NavbarComponent = () => {
                         <NavLink to="/internship" activeClassName="active">
                             Internship
                         </NavLink>
-                        <Button className="orange-round-button round-button">Get Started</Button>
+                        <Button className="orange-round-button">Get Started</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
