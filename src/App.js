@@ -7,8 +7,8 @@ import Program from './main/program/index';
 import Footer from './components/footer';
 import CourseDetail from './main/program/detail';
 import json from './data.json';
+import HirePage from './components/hire-page/hire';
 
-const HirePage = () => <h1>Hire Page</h1>;
 const BlogPage = () => <h1>Blog Page</h1>;
 const InternshipPage = () => <h1>Internship Page</h1>;
 

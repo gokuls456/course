@@ -120,5 +120,13 @@
         {
             "displayName": "Placement Report"
         }
-    ]
+    ],
+    "hirePageContent": {
+        "title": "Hire Skilled",
+        "subTitle": "Developer",
+        "description": "Helps developers learn job-ready tech skills by building real software projects. Developers who complete our revolutionary project-based curriculum are ready to help your company reach its highest-impact goals.",
+        "requirementNote": "submit you requirements & our team will get in touch",
+        "buttonIcon": "fas fa-solid fa-arrow-right-long",
+        "hireSideImg": "https://www.textanywhere.com/wp-content/uploads/images/textanywhere/website/developer-zone-banner.svg"
+    }
 }

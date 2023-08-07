@@ -1,0 +1,142 @@
+.hire-page-container {
+    min-height: auto;
+    max-height: 100vh;
+    background-color: #ffffff;
+}
+
+.hire-details {
+    min-height: 80vh;
+}
+
+.hire-heading {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(255, 117, 4);
+}
+
+.hire-description {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    margin: 2 0px 0px;
+}
+
+.hire-btn {
+    background-color: rgb(255, 117, 4);
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 300px;
+    margin: 10px 0px;
+    box-shadow: rgb(255, 117, 4) 0px 0px 10px;
+    cursor: pointer;
+}
+
+.hire-btn:hover {
+    background-color: rgb(255, 117, 4);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.requirement-text {
+    font-size: 11px;
+    font-weight: 500;
+    margin: 5px 3px;
+}
+
+.hire-page-image {
+    width: 400px;
+    height: 400px;
+}
+
+.hire-modal {
+    background-color: rgb(255, 117, 4, 0.1);
+    padding-left: 0px !important;
+}
+
+.hire-form {
+    margin-bottom: 15px;
+}
+
+.hire-form::placeholder {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+}
+
+.hire-form:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 117, 4, 0.25);
+    border-color: rgba(255, 117, 4, 0.5);
+}
+
+.form-body {
+    min-height: 80vh;
+}
+
+.form-title {
+    color: rgb(255, 117, 4);
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.form-btns {
+    display: flex;
+    justify-content: end;
+}
+
+.form-cancel-btn {
+    background-color: #ffffff;
+    color: rgb(255, 117, 4);
+    border: 1px solid rgb(255, 117, 4);
+    font-weight: 500;
+    width: 100px;
+    margin-right: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.form-cancel-btn:hover {
+    background-color: #ffffff;
+    color: rgb(255, 117, 4);
+    border: 1px solid rgb(255, 117, 4);
+    font-weight: 500;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.form-submit-btn {
+    background-color: rgb(255, 117, 4);
+    color: #ffffff;
+    width: 100px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    border: 1px solid rgb(255, 117, 4);
+}
+
+.form-submit-btn:hover {
+    background-color: rgb(255, 117, 4);
+    color: #ffffff;
+    width: 100px;
+    border: 1px solid rgb(255, 117, 4);
+    font-weight: 500;
+}
+
+.form-check-question {
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+}
+
+.hire-form-check {
+    font-size: 13px;
+}
+
+.check-form {
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #000000;
+    opacity: 0.5;
+}
