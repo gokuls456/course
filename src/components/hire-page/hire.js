@@ -51,7 +51,10 @@ const HirePage = () => {
                 <Col xs={{ span: 12, order: 1}} md={{ span: 5, order: 2}} className="d-flex justify-content-center align-items-center">
                     <img src={details.hireSideImg} alt="" className="hire-page-image" />
                 </Col>
-                <Modal show={modalOpen} onHide={() => (setModalOpen(false), setFormData(formValue))} className="hire-modal">
+                <Modal show={modalOpen} onHide={() => {
+                    setModalOpen(false);
+                    setFormData(formValue)
+                }} className="hire-modal">
                     <Modal.Header closeButton>
                         <Modal.Title className="form-title">Hiring Form</Modal.Title>
                     </Modal.Header>
