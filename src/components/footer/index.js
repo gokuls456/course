@@ -19,9 +19,9 @@ const Footer = () => {
                     <Col xs={12} md={4} lg={4} className="text-center" style={{ gap: '0.5em' }}>
                         <h5 className='text-orange'>Tech Vedaa</h5>
                         <span>
-                            {json.footerInfo.map((item) => {
+                            {json.footerInfo.map((item, index) => {
                                 return(
-                                    <span>{item.displayName}</span>
+                                    <span key={index}>{item.displayName}</span>
                                 )
                             })}
 

@@ -23,7 +23,7 @@ const App = () => {
             <Route path="/hire" element={<HirePage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/internship" element={<InternshipPage />} />
-            <Route path="/program/:id" element={<CourseDetail courses={json.courseInfo} />}/>
+            <Route exact path="/program/:id" element={<CourseDetail courses={json.courseInfo} />}/>
           </Routes>
         </div>
         <div>

@@ -50,13 +50,13 @@ const NavbarComponent = () => {
                         <a onClick={handleCourse} href={"/#programList"} className={window.location.pathname === '/' ? "active" : ''}>
                             Program
                         </a>
-                        <NavLink to="/hire" activeClassName="active">
+                        <NavLink to="/hire" activeclassname="active">
                             Hire from us
                         </NavLink>
-                        <NavLink to="/blog" activeClassName="active">
+                        <NavLink to="/blog" activeclassname="active">
                             Blog
                         </NavLink>
-                        <NavLink to="/internship" activeClassName="active">
+                        <NavLink to="/internship" activeclassname="active">
                             Internship
                         </NavLink>
                         <Button className="orange-round-button">Get Started</Button>
