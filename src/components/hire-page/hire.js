@@ -2,6 +2,8 @@ import { Row, Col, Button, Modal, Form } from "react-bootstrap";
 import "./hire.css";
 import datajson from "../../data.json";
 import { useState } from "react";
+import * as Icons from '../../icons/index';
+
 const HirePage = () => {
 
     const formValue = {
@@ -49,7 +51,7 @@ const HirePage = () => {
                     <span className="requirement-text">{details.requirementNote}</span>
                 </Col>
                 <Col xs={{ span: 12, order: 1}} md={{ span: 5, order: 2}} className="d-flex justify-content-center align-items-center">
-                    <img src={details.hireSideImg} alt="" className="hire-page-image" />
+                    <img src={Icons[`${details.hireSideImg}`]} alt="" className="hire-page-image" />
                 </Col>
                 <Modal show={modalOpen} onHide={() => {
                     setModalOpen(false);

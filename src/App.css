@@ -44,7 +44,7 @@ span{
   border-bottom: 1px solid transparent;
   padding: 6px 10px;
 }
-.left-links a:hover{
+.left-links a:hover, .active{
   border-bottom: 1px solid orange !important;
 }
 .text-orange{
