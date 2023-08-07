@@ -47,7 +47,7 @@ const HirePage = () => {
                 <Col xs={{ span: 12, order: 2}} md={{ span: 7, order: 1}} className="hire-details d-flex justify-content-center align-items-start flex-column">
                     <span className="hire-heading"><span>{details.title}</span><br /><span>{details.subTitle}</span></span>
                     <p className="hire-description">{details.description}</p>
-                    <Button className="hire-btn" onClick={handleStartBtn}>Start Hiring <i class={`${details.buttonIcon} px-1`}></i></Button>
+                    <Button className="hire-btn" onClick={handleStartBtn}>Start Hiring <i className={`${details.buttonIcon} px-1`}></i></Button>
                     <span className="requirement-text">{details.requirementNote}</span>
                 </Col>
                 <Col xs={{ span: 12, order: 1}} md={{ span: 5, order: 2}} className="d-flex justify-content-center align-items-center">

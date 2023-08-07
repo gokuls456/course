@@ -47,7 +47,7 @@ const NavbarComponent = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleNavbarToggle} />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end left-links" style={{ textAlign: 'center', backgroundColor: '#ffffff' }}>
                     <Nav onClick={handleNavbarToggle}>
-                        <a onClick={handleCourse} href={"/#programList"} class={window.location.pathname === '/' ? "active" : ''}>
+                        <a onClick={handleCourse} href={"/#programList"} className={window.location.pathname === '/' ? "active" : ''}>
                             Program
                         </a>
                         <NavLink to="/hire" activeClassName="active">

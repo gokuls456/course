@@ -38,7 +38,7 @@ const CourseDetail = ({ courses }) => {
         <h1 className='mb-5 text-orange'>{course?.title}</h1>
         <div className="course-details">
           <p>{course?.description}</p>
-          <p><i class="fa-solid fa-calendar-days"></i> {course?.duration}</p>
+          <p><i className="fa-solid fa-calendar-days"></i> {course?.duration}</p>
           <p><i className='fa-solid fa-calendar-day' /> {course?.date}</p>
           <p><i className='fa-solid fa-clock' /> {course?.time}</p>
         </div>
